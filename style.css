@@ -1,3 +1,6 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+
+
 body{
 
  margin: 0;
@@ -131,7 +134,7 @@ span{
 
  display: flex;
  flex-wrap: wrap;
- justify-content: space-evenly;
+ justify-content:space-evenly;
  align-items: center;
  gap: 15px;
  margin: 50px 0 0 0;
@@ -157,7 +160,7 @@ span{
 .project-image{
 
   height: 250px;
-  width: 345px;
+  width: 340px;
   border: 1px solid silver;
 
 }
@@ -176,8 +179,46 @@ p{
 
 }
 
+.flex-footer{
+
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-evenly;
+ align-items: center;
+ gap: 15px;
+
+
+}
+
+.ul-flex-footer{
+
+  display: flex;
+  padding: 0;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.ul-flex-footer li a{
+
+ color: black;
+
+}
+
+
+.footer-cr p{
+
+ padding-top: 10px;
+ color: white;
+
+}
+
+
+
 .gradient-background {
-  background: linear-gradient(300deg, #f37932, #2426a8, #d1432d);
+  background: linear-gradient(300deg, #ffa33b, #3f2fcf, #ee2a2a);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   
