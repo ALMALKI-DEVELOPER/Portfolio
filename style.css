@@ -237,7 +237,7 @@ p{
  display: flex;
  align-items: flex-start;
  justify-content: center;
- gap: 30px;
+ gap: 15px;
 
 }
 
@@ -250,7 +250,7 @@ p{
 
 .footer-cr p{
 
- margin-top: 50px;
+ text-align: center;
  color: white;
 
 }
