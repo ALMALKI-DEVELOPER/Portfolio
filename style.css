@@ -9,6 +9,7 @@ body{
 
  padding: 0 0 125px 0;
  
+ 
 
 }
 
@@ -57,8 +58,8 @@ header{
 
  display: flex;
  padding: 0;
- gap: 10px;
- margin-left: 16px;
+ gap: 20px;
+ margin-left: 18px;
  align-items: center;
  justify-content: center;
  font-weight: bold;
@@ -75,8 +76,8 @@ header{
 
 .ul-flex-header a:hover{
 
-  color: rgb(124, 124, 124);
-  text-decoration: none;
+ text-decoration: none;
+ color: rgb(180, 180, 180);
  
  }
 
@@ -168,14 +169,17 @@ span{
 .skills-image{
 
  height: 250px;
+ width: 340px;
  border: 1px solid silver;
 
 
 }
 
+
 .hobbies-image{
 
   height: 250px;
+  width: 340px;
   border: 1px solid silver;
 
 }
@@ -255,7 +259,7 @@ p{
 
 .footer-sm h4{
 
- margin: 0 0 0 26px;
+ margin: 0 0 0 50px;
  padding: 0 0 8px 7px;
 
 }
@@ -303,7 +307,7 @@ p{
 
 .gradient-background {
   
-  background: linear-gradient(300deg, #ff90f0, #50ebff, #53ff8c);
+  background: linear-gradient(300deg, #d3f5cf, #a8dbfa, #635ee2);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   
