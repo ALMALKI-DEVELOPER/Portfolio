@@ -22,6 +22,18 @@ header {
   flex-wrap: wrap;
 }
 
+.demo{
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 auto;
+ 
+}
+
 .header-image {
   display: flex;
   justify-content: center;
@@ -204,7 +216,7 @@ p {
 }
 
 .flex-versions .cr-p {
-  width: 250px;
+  width: 255px;
   height: 20px;
   margin: 20px 10px 8px 10px;
   text-align: left;
@@ -254,6 +266,17 @@ p {
   #title {
     padding-bottom: 140px;
   }
+  .demo{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 auto;
+   
+  }
 }
 
 @media (max-width: 780px) {
@@ -290,6 +313,17 @@ p {
     font-size: 2rem;
     text-align: left;
   }
+  .demo{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 auto;
+   
+  }
 }
 
 @media (max-width: 700px) {
@@ -304,6 +338,17 @@ p {
 
   .footer-sm {
     margin: 10px 0 0 0;
+  }
+  .demo{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 auto;
+   
   }
 }
 
@@ -331,4 +376,16 @@ p {
     height: 13vh;
     flex-wrap: wrap;
   }
+  .demo{
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: 0;
+ 
+}
 }

@@ -85,6 +85,7 @@ a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   height: 50%;
+  width: 50%;
   margin: 145px 16px 200px 16px;
   border-radius: 5px;
   box-shadow: 1px 1px 1px 1px rgb(80, 80, 80);
